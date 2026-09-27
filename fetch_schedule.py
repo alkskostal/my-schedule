@@ -27,6 +27,7 @@ API_URL = f"https://v2api.instudy.online/api/schedule?semester={SEMESTER}&univer
 HEADERS = {
     "Accept": "application/json, text/plain, */*",
     "Authorization": f"Bearer {BEARER_TOKEN}",
+        "X-Requested-With": "XMLHttpRequest",
     "Accept-Language": "ru",
     "Origin": "https://v2.instudy.online",
     "Referer": "https://v2.instudy.online/",
